@@ -135,7 +135,7 @@ function menu() {
 
 function generateHTML() {
   const html = render(team);
-  const outputPath = './output/team.html';
+  const outputPath = './src/team.html';
   fs.writeFileSync(outputPath, html);
   console.log(`HTML file generated at ${outputPath}`);
 }
